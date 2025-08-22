@@ -35,7 +35,7 @@ function Recovery() {
             <h2>Recover Account</h2>
             <form onSubmit={processSubmission} className="form-box">
                 <div className="fields" title="Enter your email address here.">
-                    <img src="src/assets/email-icon.svg" alt="Email Icon" className="icons" />
+                    <img src="/assets/email-icon.svg" alt="Email Icon" className="icons" />
                     <input
                         id="new-email"
                         type="text"
@@ -47,7 +47,7 @@ function Recovery() {
                 </div>
                 <div id="signup-prompt">
                     <p>Remembered your login details?</p>
-                    <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
+                    <img src="/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                     <a onClick={() => navigate("/")}>Log In</a>
                 </div>
                 <input type="submit" className="submit-button" value="Get Account Details" title="Sign up with the details you entered." />

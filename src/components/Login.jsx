@@ -32,7 +32,7 @@ function Login() {
             <h2>Member Login</h2>
             <form onSubmit={processSubmission} className="form-box">
                 <div className="fields" title="Enter your username here.">
-                    <img src="src/assets/username-icon.svg" alt="Username Icon" className="icons" />
+                    <img src="/assets/username-icon.svg" alt="Username Icon" className="icons" />
                     <input
                         id="username"
                         type="text"
@@ -43,7 +43,7 @@ function Login() {
                     />
                 </div>
                 <div className="fields" title="Enter your password here.">
-                    <img src="src/assets/password-icon.svg" alt="Password Icon" className="icons" />
+                    <img src="/assets/password-icon.svg" alt="Password Icon" className="icons" />
                     <input
                         id="password"
                         type="text"
@@ -58,7 +58,7 @@ function Login() {
             <a onClick={() => navigate("/recovery")} id="forgot" title="Click this if you forgot your username or password.">Forgot your username or password?</a>
             <div id="signup-prompt" title="Click here if you want to sign up for ShatterStar space news.">
                 <p>Not a member?</p>
-                <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
+                <img src="/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                 <a onClick={() => navigate("signup")} id="goto-signup">Sign Up</a>
             </div>
         </>

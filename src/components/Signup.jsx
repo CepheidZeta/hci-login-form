@@ -92,7 +92,7 @@ function Signup() {
             <h2>Member Signup</h2>
             <form onSubmit={processSubmission} className="form-box">
                 <div className="fields" title="Enter your email address here.">
-                    <img src="src/assets/email-icon.svg" alt="Email Icon" className="icons" />
+                    <img src="/assets/email-icon.svg" alt="Email Icon" className="icons" />
                     <input
                         id="new-email"
                         type="text"
@@ -103,7 +103,7 @@ function Signup() {
                     />
                 </div>
                 <div className="fields" title="Your username should only contain lowercase letters, uppercase letters, and numbers.">
-                    <img src="src/assets/username-icon.svg" alt="Username Icon" className="icons" />
+                    <img src="/assets/username-icon.svg" alt="Username Icon" className="icons" />
                     <input
                         id="new-username"
                         type="text"
@@ -114,7 +114,7 @@ function Signup() {
                     />
                 </div>
                 <div className="fields" title="Your password must contain at least one lowercase letter, one uppercase letter, and one number.">
-                    <img src="src/assets/password-icon.svg" alt="Password Icon" className="icons" />
+                    <img src="/assets/password-icon.svg" alt="Password Icon" className="icons" />
                     <input
                         id="new-password"
                         type="text"
@@ -125,7 +125,7 @@ function Signup() {
                     />
                 </div>
                 <div className="fields" title="Retype your password to confirm.">
-                    <img src="src/assets/password-icon.svg" alt="Password Icon" className="icons" />
+                    <img src="/assets/password-icon.svg" alt="Password Icon" className="icons" />
                     <input
                         id="retype-password"
                         type="text"
@@ -139,7 +139,7 @@ function Signup() {
             </form>
             <div id="signup-prompt" title="Click here if you are already a Member.">
                 <p>Already a member?</p>
-                <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
+                <img src="/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                 <a onClick={() => navigate("/")}>Log In</a>
             </div>
         </>
