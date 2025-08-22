@@ -47,7 +47,7 @@ function Recovery() {
                 </div>
                 <div id="signup-prompt">
                     <p>Remembered your login details?</p>
-                    <img src="src/assets/shatter-star-logo.svg" alt="" />
+                    <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                     <a onClick={() => navigate("/")}>Log In</a>
                 </div>
                 <input type="submit" className="submit-button" value="Get Account Details" title="Sign up with the details you entered." />

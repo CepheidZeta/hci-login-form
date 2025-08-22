@@ -58,7 +58,7 @@ function Login() {
             <a onClick={() => navigate("/recovery")} id="forgot" title="Click this if you forgot your username or password.">Forgot your username or password?</a>
             <div id="signup-prompt" title="Click here if you want to sign up for ShatterStar space news.">
                 <p>Not a member?</p>
-                <img src="src/assets/shatter-star-logo.svg" alt="" />
+                <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                 <a onClick={() => navigate("signup")} id="goto-signup">Sign Up</a>
             </div>
         </>

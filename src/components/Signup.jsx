@@ -139,7 +139,7 @@ function Signup() {
             </form>
             <div id="signup-prompt" title="Click here if you are already a Member.">
                 <p>Already a member?</p>
-                <img src="src/assets/shatter-star-logo.svg" alt="" />
+                <img src="src/assets/shatter-star-logo.svg" alt="ShatterStar Logo" />
                 <a onClick={() => navigate("/")}>Log In</a>
             </div>
         </>
