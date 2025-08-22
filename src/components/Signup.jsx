@@ -71,11 +71,11 @@ function Signup() {
             return;
         }
         if (!isValidUsername(username)) {
-            showTooltip("Your username seems invalid.", "red");
+            showTooltip("Your username seems invalid. Please only use letters and numbers.", "red");
             return;
         }
         if (!isValidPassword(password)) {
-            showTooltip("Your password seems invalid.", "red");
+            showTooltip("Your password seems invalid. It must contain at least one lowercase letter, one uppercase letter, and one number.", "red");
             return;
         }
 
