@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="icon" type="svg" href="/src/assets/shatter-star-logo.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald">
+    <title>ShatterStar</title>
+</head>
+
+<body>
+    <!-- This header will appear on every page. -->
+    <header class="panel">
+        <h1><img src="/src/assets/shatter-star-logo.svg" alt="ShatterStar Logo">ShatterStar</h1>
+        <p>All Your Space News in One Place</p>
+    </header>
+
+    <!-- This panel changes with every page. -->
+    <div class="panel" id="root"></div>
+
+    <!-- This panel contains tooltips for the user to understand things. -->
+    <div id="tooltip-box">
+        <div id="tooltip-content"></div>
+        <i id="close-tooltip">Close</i>
+    </div>
+
+    <!-- Importing scripts. -->
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/tooltip.js"></script>
+</body>
+
+</html>

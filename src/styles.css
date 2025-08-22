@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background-image: url(/src/assets/shatter-start-background.jpg);
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.panel {
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 6px 3px hsla(0, 0%, 100%, 0.7);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.panel h2 {
+    font-size: 30px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 10px;
+    color: #FFD900;
+}
+
+header img {
+    height: 50px;
+}
+
+#tooltip-box {
+    position: fixed;
+    top: 20px;
+    display: none;
+    background-color: #FFD900;
+
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 6px 3px hsla(0, 0%, 100%, 0.7);
+
+    text-align: center;
+    max-width: 400px;
+}
+
+#tooltip-box * {
+    color: white;
+    font-size: 16px;
+}
+
+#close-tooltip {
+    text-decoration: underline;
+}
+
+#close-tooltip:hover {
+    cursor: pointer;
+}
+
+.icons {
+    height: 20px;
+}
+
+.fields {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.field-inputs {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.field-inputs:focus, .field-inputs:hover {
+    outline: 2px solid #FFD900;
+}
+
+#forgot {
+    font-size: 16px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-button {
+    margin: auto;
+    background-color: #FFD900;
+    color: black;
+    border: none;
+    padding: 0 30px;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#signup-prompt {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#signup-prompt > p {
+    margin-right: 10px;
+}
+
+#signup-prompt > img {
+    height: 20px;
+}
+
+#signup-prompt > a {
+    color: #FFD900;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
